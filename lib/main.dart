@@ -88,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     NavigationRailDestination(
                       icon: Icon(Icons.favorite),
-                      label: Text('Favorites'),
+                      label: Text('Favorites List'),
                     ),
                   ],
                   selectedIndex: selectedIndex,
