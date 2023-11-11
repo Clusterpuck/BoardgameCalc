@@ -59721,7 +59721,7 @@ break
 default:throw A.e(A.c7("no widget for "+s))}return new A.A9(new A.a0m(r,this),null)}}
 A.a0m.prototype={
 $2(a,b){var s,r,q=null,p=this.b
-p=A.a5w(!0,new A.r8(b.b>=600,A.a([A.a96(A.QC(B.yX),A.lp("Home",q,q)),A.a96(A.QC(B.jA),A.lp("Favorites",q,q))],t.jn),p.d,new A.a0l(p),q),!0,B.al,!0,!0)
+p=A.a5w(!0,new A.r8(b.b>=600,A.a([A.a96(A.QC(B.yX),A.lp("Home",q,q)),A.a96(A.QC(B.jA),A.lp("Favorites List",q,q))],t.jn),p.d,new A.a0l(p),q),!0,B.al,!0,!0)
 s=A.ah(a).ax
 r=s.d
 s=r==null?s.b:r
