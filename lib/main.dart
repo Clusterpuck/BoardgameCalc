@@ -134,6 +134,7 @@ class FavoritesPage extends StatelessWidget
               leading: Icon(Icons.mood),
               title: Text(name.asUpperCase),
             ),
+            EntryForm(),
           ],
         );
     }
@@ -141,6 +142,19 @@ class FavoritesPage extends StatelessWidget
     {
       return Text('Empty List');
     }
+  }
+}
+
+class EntryForm extends StatelessWidget {
+  @override
+  Widget build(BuildContext context)
+  {
+    return TextField(
+      decoration: InputDecoration(
+        border: OutlineInputBorder(),
+        labelText: 'Enter team name'
+      ),
+    );
   }
 }
 
